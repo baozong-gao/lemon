@@ -1,0 +1,42 @@
+2015-06-05 09:53:58,215 DEBUG [Zip.java:33] - <reading file e:\test_maven.zip start ...>
+2015-06-05 09:53:58,219 DEBUG [Zip.java:69] - <start read test_maven/aaa.txt>
+2015-06-05 09:53:58,220 DEBUG [Zip.java:76] - <read test_maven/aaa.txt end.>
+2015-06-05 09:53:58,221 DEBUG [Zip.java:69] - <start read test_maven/bbb.txt>
+2015-06-05 09:53:58,221 DEBUG [Zip.java:76] - <read test_maven/bbb.txt end.>
+2015-06-05 09:53:58,222  INFO [Zip.java:40] - <reading file end.>
+2015-06-05 10:06:41,434 DEBUG [Zip.java:35] - <reading file e:\test_maven.zip start ...>
+2015-06-05 10:06:41,437 DEBUG [Zip.java:70] - <start read test_maven/aaa.txt>
+2015-06-05 10:06:41,438 DEBUG [Zip.java:77] - <read test_maven/aaa.txt end.>
+2015-06-05 10:06:41,438 DEBUG [Zip.java:70] - <start read test_maven/bbb.txt>
+2015-06-05 10:06:41,439 DEBUG [Zip.java:77] - <read test_maven/bbb.txt end.>
+2015-06-05 10:06:41,440 ERROR [Zip.java:40] - <read file error.>
+java.lang.NullPointerException
+	at com.gbz.lemon.util.MapUtil.mapToList(MapUtil.java:24)
+	at com.gbz.lemon.util.MapUtil.mapToString(MapUtil.java:30)
+	at com.gbz.lemon.stream.impl.Zip.read(Zip.java:37)
+	at com.gbz.lemon.stream.impl.Zip.main(Zip.java:91)
+2015-06-05 10:06:41,441 DEBUG [Zip.java:42] - <reading file end.>
+2015-06-05 10:07:10,632 DEBUG [Zip.java:35] - <reading file e:\test_maven.zip start ...>
+2015-06-05 10:07:10,635 DEBUG [Zip.java:70] - <start read test_maven/aaa.txt>
+2015-06-05 10:07:10,636 DEBUG [Zip.java:77] - <read test_maven/aaa.txt end.>
+2015-06-05 10:07:10,636 DEBUG [Zip.java:70] - <start read test_maven/bbb.txt>
+2015-06-05 10:07:10,637 DEBUG [Zip.java:77] - <read test_maven/bbb.txt end.>
+2015-06-05 10:07:10,638 DEBUG [Zip.java:42] - <reading file end.>
+2015-06-05 10:07:33,013 DEBUG [Zip.java:35] - <reading file e:\test_maven.zip start ...>
+2015-06-05 10:07:33,016 DEBUG [Zip.java:70] - <start read test_maven/aaa.txt>
+2015-06-05 10:07:33,016 DEBUG [Zip.java:77] - <read test_maven/aaa.txt end.>
+2015-06-05 10:07:33,017 DEBUG [Zip.java:70] - <start read test_maven/bbb.txt>
+2015-06-05 10:07:33,017 DEBUG [Zip.java:77] - <read test_maven/bbb.txt end.>
+2015-06-05 10:07:33,018 DEBUG [Zip.java:42] - <reading file end.>
+2015-06-05 13:29:18,313 DEBUG [Zip.java:45] - <reading file end.>
+2015-06-05 13:32:35,021 DEBUG [Zip.java:47] - <reading file end.>
+2015-06-05 13:33:37,375 DEBUG [Zip.java:49] - <reading file end.>
+2015-06-05 13:35:31,034 DEBUG [Zip.java:49] - <reading file end.>
+2015-06-05 13:40:48,200 ERROR [Zip.java:37] - <文件不存在>
+2015-06-05 13:40:48,203 DEBUG [Zip.java:50] - <reading file end.>
+2015-06-05 13:43:07,810 ERROR [Zip.java:37] - <文件不存在>
+2015-06-05 13:43:07,813 DEBUG [Zip.java:50] - <reading file end.>
+2015-06-05 13:43:25,878 ERROR [Zip.java:37] - <文件不存在>
+2015-06-05 13:43:25,881 DEBUG [Zip.java:50] - <reading file end.>
+2015-06-05 13:43:25,882 ERROR [Zip.java:39] - <不能读取一个目录>
+2015-06-05 13:43:25,883 DEBUG [Zip.java:50] - <reading file end.>

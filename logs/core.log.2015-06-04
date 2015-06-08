@@ -1,0 +1,7 @@
+2015-06-04 17:49:27,423 DEBUG [Zip.java:33] - <reading file e:\test_maven.zip start ...>
+2015-06-04 17:50:47,215 DEBUG [Zip.java:33] - <reading file e:\test_maven.zip start ...>
+2015-06-04 17:51:52,139 DEBUG [Zip.java:33] - <reading file e:\test_maven.zip start ...>
+2015-06-04 17:51:52,142 DEBUG [Zip.java:67] - <start read test_maven/aaa.txt>
+2015-06-04 17:51:52,143 DEBUG [Zip.java:74] - <read test_maven/aaa.txt end.>
+2015-06-04 17:51:52,144 DEBUG [Zip.java:67] - <start read test_maven/bbb.txt>
+2015-06-04 17:51:52,144 DEBUG [Zip.java:74] - <read test_maven/bbb.txt end.>

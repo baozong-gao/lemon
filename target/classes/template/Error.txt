@@ -1,0 +1,18 @@
+<Tenpay>
+<Message id="${messageId}">
+    <sysname>${sysname}</sysname>
+        <Error id="${errorId}">
+            <version>${version}</version>
+            <instId>${instId}</instId>
+            <certId>${certId}</certId>
+            <errorCode>${errorCode}</errorCode>
+            <errorMessage>${errorMessage}</errorMessage>
+            <%if(has(errorDetail)){%>
+            <errorDetail>${errorDetail}</errorDetail>
+            <%}%>
+            <%if(has(vendorCode)){%>
+            <vendorCode>${vendorCode}</vendorCode>
+            <%}%>
+        </Error>
+    </Message>
+</Tenpay>
