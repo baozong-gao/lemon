@@ -37,14 +37,11 @@ public class XmlDigitalSignature extends DataSecurity {
 
 	private static final Logger logger = LoggerFactory.getLogger(XmlDigitalSignature.class);
 	@Override
-	public String sign(Object xml) {
-		if(!(xml instanceof String)){
-			logger.error("data not String .");
-			return null;
-		}
+	public String sign(byte [] data) {
+		String xml = new String(data);
 		
 		// xml 转成doc对像
-		Document doc = DocumentUtil.xmlToDocument((String)xml);
+		Document doc = DocumentUtil.xmlToDocument(xml);
 
 		XMLSignatureFactory xmlSigFactory = XMLSignatureFactory
 				.getInstance("DOM");
@@ -102,15 +99,11 @@ public class XmlDigitalSignature extends DataSecurity {
 	}
 
 	@Override
-	public Boolean validate(Object xml) {
-		
-		if(!(xml instanceof String)){
-			logger.error("data not String .");
-			return null;
-		}
+	public Boolean validate(byte [] data) {
+		String xml = new String(data);
 		boolean validFlag = false;
 		try {
-			Document doc = DocumentUtil.xmlToDocument((String)xml);
+			Document doc = DocumentUtil.xmlToDocument(xml);
 			NodeList nl = doc.getElementsByTagNameNS(XMLSignature.XMLNS,
 					"Signature");
 			PublicKey publicKey = keyUtil.getPublicKeyByKeyStore(keyPath,

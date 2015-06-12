@@ -1,248 +1,11 @@
-2015-06-08 14:19:58,689 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:19:58,795 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:19:58,797 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:19:59,259 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 14:23:51,843 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:23:51,905 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:23:51,907 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:23:52,137 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:25:04,377 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:25:04,440 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:25:04,442 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:25:04,888 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-not exit            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 14:26:32,482 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:26:32,545 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:26:32,547 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:26:32,765 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:26:52,334 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:26:52,397 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:26:52,398 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:26:52,587 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:27:32,559 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:27:32,622 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:27:32,624 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:27:32,895 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:28:19,097 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:28:19,157 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:28:19,158 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:28:19,379 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:28:39,340 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:28:39,405 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:28:39,406 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:28:39,691 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:31:24,769 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:31:24,830 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:31:24,831 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:31:25,054 DEBUG [Xml.java:39] - <return string : >
-2015-06-08 14:33:32,838 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:33:32,903 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:33:32,905 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:33:33,354 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <vendorCode>>
-2015-06-08 14:34:27,723 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:34:27,784 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:34:27,786 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:34:28,146 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 14:35:13,565 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:35:13,624 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:35:13,626 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:35:13,978 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>>
-2015-06-08 14:42:10,905 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:42:10,990 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:42:10,991 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/templateError.txt>
-2015-06-08 14:44:13,373 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:44:13,441 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:44:13,442 DEBUG [Xml.java:35] - <template file name D:\workspace\lemon\src\main\resources\templateError.txt>
-2015-06-08 14:44:23,158 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:44:23,218 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:44:23,220 DEBUG [Xml.java:35] - <template file name D:\workspace\lemon\src\main\resources\templateError.txt>
-2015-06-08 14:44:23,555 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 14:44:48,086 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:44:48,157 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:44:48,160 DEBUG [Xml.java:35] - <template file name D:\workspace\lemon\src\main\resources\templateError.txt>
-2015-06-08 14:50:30,757 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:50:30,823 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:50:30,824 DEBUG [Xml.java:35] - <template file name D:\workspace\lemon\src\main\resources\templateError.txt>
-2015-06-08 14:52:22,952 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:52:23,011 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:52:23,013 DEBUG [Xml.java:35] - <template file name D:\workspace\lemon\src\main\resources\template\Error.txt>
-2015-06-08 14:55:56,889 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:55:56,952 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:55:56,956 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 14:55:57,386 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 14:55:57,389 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 14:55:57,393 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 14:55:57,430 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 15:00:07,499 ERROR [Zip.java:38] - <�ļ�������>
-2015-06-08 15:00:07,503 DEBUG [Zip.java:51] - <reading file end.>
-2015-06-08 15:00:07,504 ERROR [Zip.java:40] - <���ܶ�ȡһ��Ŀ¼>
-2015-06-08 15:00:07,506 DEBUG [Zip.java:51] - <reading file end.>
-2015-06-08 15:00:07,516 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 15:00:07,611 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 15:00:07,612 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 15:00:08,081 DEBUG [Xml.java:39] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 15:00:08,083 DEBUG [Xml.java:22] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 15:00:08,085 DEBUG [Xml.java:27] - <xml init down.>
-2015-06-08 15:00:08,086 DEBUG [Xml.java:35] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:11:41,684 DEBUG [Xml.java:30] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:11:41,750 DEBUG [Xml.java:35] - <xml init down.>
-2015-06-08 16:11:41,752 DEBUG [Xml.java:43] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:11:42,153 DEBUG [Xml.java:30] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:11:42,160 DEBUG [Xml.java:35] - <xml init down.>
-2015-06-08 16:11:42,164 DEBUG [Xml.java:43] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:11:42,223 DEBUG [Xml.java:47] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:11:42,225 DEBUG [Xml.java:30] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:11:42,232 DEBUG [Xml.java:35] - <xml init down.>
-2015-06-08 16:11:42,233 DEBUG [Xml.java:43] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:11:42,248 DEBUG [Xml.java:47] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:11:42,465 ERROR [Xml.java:65] - <error read xml .>
-org.dom4j.DocumentException: no protocol: <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay> Nested exception: no protocol: <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>
-	at org.dom4j.io.SAXReader.read(SAXReader.java:484)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:321)
-	at com.gbz.lemon.template.impl.Xml.parseXML(Xml.java:61)
-	at com.gbz.lemon.template.XmlTest.parseXMLTest(XmlTest.java:62)
+2015-06-12 12:15:48,897 ERROR [DocumentUtil.java:37] - <string to document error >
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 前言中不允许有内容。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.gbz.lemon.util.DocumentUtil.xmlToDocument(DocumentUtil.java:34)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.sign(XmlDigitalSignature.java:47)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -267,35 +30,20 @@ org.dom4j.DocumentException: no protocol: <Tenpay>
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
-Nested exception: 
-java.net.MalformedURLException: no protocol: <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at java.net.URL.<init>(Unknown Source)
-	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
-	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
-	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
-	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
-	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
-	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
-	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:465)
-	at org.dom4j.io.SAXReader.read(SAXReader.java:321)
-	at com.gbz.lemon.template.impl.Xml.parseXML(Xml.java:61)
-	at com.gbz.lemon.template.XmlTest.parseXMLTest(XmlTest.java:62)
+2015-06-12 12:18:12,905 ERROR [KeyUtil.java:92] - <get public key error.>
+java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+	at java.security.KeyStoreSpi.engineGetEntry(Unknown Source)
+	at java.security.KeyStore.getEntry(Unknown Source)
+	at com.gbz.lemon.util.KeyUtil.getPublicKeyByPrivate(KeyUtil.java:88)
+	at com.gbz.lemon.util.KeyUtil.main(KeyUtil.java:153)
+2015-06-12 13:37:46,556 ERROR [DocumentUtil.java:37] - <string to document error >
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 前言中不允许有内容。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.gbz.lemon.util.DocumentUtil.xmlToDocument(DocumentUtil.java:34)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.sign(XmlDigitalSignature.java:47)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -320,188 +68,797 @@ java.net.MalformedURLException: no protocol: <Tenpay>
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
-2015-06-08 16:24:25,575 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:24:25,648 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:24:25,651 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:24:26,044 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:24:26,046 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:24:26,047 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:24:26,065 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:24:26,066 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:24:26,069 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:24:26,069 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:24:26,082 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:26:51,219 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:26:51,276 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:26:51,277 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:26:51,658 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:26:51,665 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:26:51,669 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:26:51,731 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:26:51,732 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:26:51,738 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:26:51,738 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:26:51,750 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:34:21,095 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:34:21,158 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:34:21,159 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:34:21,554 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:34:21,560 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:34:21,565 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:34:21,626 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:34:21,627 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:34:21,641 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:34:21,641 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:34:21,654 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:34:41,391 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:34:41,454 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:34:41,457 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:34:41,729 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:34:41,732 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:34:41,732 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:34:41,752 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:34:41,753 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:34:41,756 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:34:41,756 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:34:41,768 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:35:18,533 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:35:18,596 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:35:18,597 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:35:18,998 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:35:19,004 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:35:19,009 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:35:19,069 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
-2015-06-08 16:35:19,072 DEBUG [Xml.java:31] - <template dir /D:/workspace/lemon/target/classes/template, charset utf-8.>
-2015-06-08 16:35:19,081 DEBUG [Xml.java:36] - <xml init down.>
-2015-06-08 16:35:19,081 DEBUG [Xml.java:44] - <template file name /D:/workspace/lemon/target/classes/template\Error.txt>
-2015-06-08 16:35:19,094 DEBUG [Xml.java:48] - <return string : <Tenpay>
-<Message id="1">
-    <sysname>2</sysname>
-        <Error id="3">
-            <version>4</version>
-            <instId>5</instId>
-            <certId>6</certId>
-            <errorCode>7</errorCode>
-            <errorMessage>8</errorMessage>
-            <errorDetail>9</errorDetail>
-            <vendorCode>10</vendorCode>
-        </Error>
-    </Message>
-</Tenpay>>
+2015-06-12 13:39:05,405 ERROR [DocumentUtil.java:37] - <string to document error >
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 前言中不允许有内容。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.gbz.lemon.util.DocumentUtil.xmlToDocument(DocumentUtil.java:34)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.sign(XmlDigitalSignature.java:47)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 13:42:48,417 ERROR [XmlDigitalSignature.java:124] - <validate Xml error.>
+javax.xml.crypto.dsig.XMLSignatureException: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:122)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	... 28 more
+java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:122)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:25:22,061 ERROR [XmlDigitalSignature.java:117] - <validate Xml error.>
+javax.xml.crypto.dsig.XMLSignatureException: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	... 28 more
+java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:25:36,328 ERROR [XmlDigitalSignature.java:117] - <validate Xml error.>
+javax.xml.crypto.dsig.XMLSignatureException: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	... 28 more
+java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:26:46,495 ERROR [XmlDigitalSignature.java:117] - <validate Xml error.>
+javax.xml.crypto.dsig.XMLSignatureException: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	... 28 more
+java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:30:51,678 ERROR [XmlDigitalSignature.java:117] - <validate Xml error.>
+javax.xml.crypto.dsig.XMLSignatureException: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	... 28 more
+java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:47:43,822 ERROR [TripleDES.java:96] - <sign 3des error.>
+java.security.InvalidKeyException: No installed provider supports this key: (null)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:878)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:84)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:93)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:49:18,879 ERROR [XmlDigitalSignature.java:117] - <validate Xml error.>
+javax.xml.crypto.dsig.XMLSignatureException: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	... 28 more
+java.security.SignatureException: Signature length not correct: got 256 but was expecting 128
+	at sun.security.rsa.RSASignature.engineVerify(Unknown Source)
+	at java.security.Signature$Delegate.engineVerify(Unknown Source)
+	at java.security.Signature.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.verify(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature$DOMSignatureValue.validate(Unknown Source)
+	at org.jcp.xml.dsig.internal.dom.DOMXMLSignature.validate(Unknown Source)
+	at com.gbz.lemon.datasecurity.impl.XmlDigitalSignature.validate(XmlDigitalSignature.java:115)
+	at com.gbz.lemon.datasecurity.XMLTest.validateTest(XMLTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:49:40,033 ERROR [TripleDES.java:96] - <sign 3des error.>
+java.security.InvalidKeyException: No installed provider supports this key: (null)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:878)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:84)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:93)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 14:52:31,894 ERROR [TripleDES.java:96] - <sign 3des error.>
+java.security.InvalidKeyException: No installed provider supports this key: (null)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:878)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:84)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:93)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 16:48:18,416 ERROR [TripleDES.java:98] - <sign 3des error.>
+java.security.InvalidKeyException: No installed provider supports this key: (null)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:878)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:86)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:95)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 16:48:55,044 ERROR [TripleDES.java:96] - <sign 3des error.>
+java.security.InvalidKeyException: Wrong algorithm: DESede or TripleDES required
+	at com.sun.crypto.provider.DESedeCrypt.init(DESedeCrypt.java:65)
+	at com.sun.crypto.provider.CipherBlockChaining.init(CipherBlockChaining.java:91)
+	at com.sun.crypto.provider.CipherCore.init(CipherCore.java:469)
+	at com.sun.crypto.provider.DESedeCipher.engineInit(DESedeCipher.java:197)
+	at javax.crypto.Cipher.implInit(Cipher.java:791)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:849)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:84)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:93)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 16:52:35,878 DEBUG [TripleDES.java:32] - <init key gbz, keyiv aaa, destype null.>
+2015-06-12 16:52:36,189 ERROR [TripleDES.java:97] - <sign 3des error.>
+java.security.InvalidKeyException: Wrong algorithm: DESede or TripleDES required
+	at com.sun.crypto.provider.DESedeCrypt.init(DESedeCrypt.java:65)
+	at com.sun.crypto.provider.CipherBlockChaining.init(CipherBlockChaining.java:91)
+	at com.sun.crypto.provider.CipherCore.init(CipherCore.java:469)
+	at com.sun.crypto.provider.DESedeCipher.engineInit(DESedeCipher.java:197)
+	at javax.crypto.Cipher.implInit(Cipher.java:791)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:849)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:85)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:94)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 16:55:52,369 DEBUG [TripleDES.java:32] - <init key gbz, keyiv aaa, destype TripleDES/CBC/PKCS5Padding.>
+2015-06-12 16:55:52,716 ERROR [TripleDES.java:97] - <sign 3des error.>
+java.security.InvalidKeyException: Wrong algorithm: DESede or TripleDES required
+	at com.sun.crypto.provider.DESedeCrypt.init(DESedeCrypt.java:65)
+	at com.sun.crypto.provider.CipherBlockChaining.init(CipherBlockChaining.java:91)
+	at com.sun.crypto.provider.CipherCore.init(CipherCore.java:469)
+	at com.sun.crypto.provider.DESedeCipher.engineInit(DESedeCipher.java:197)
+	at javax.crypto.Cipher.implInit(Cipher.java:791)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:849)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:85)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:94)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 16:56:08,715 DEBUG [TripleDES.java:32] - <init key gbz, keyiv aaa, destype TripleDES/CBC/PKCS5Padding.>
+2015-06-12 16:56:13,149 ERROR [TripleDES.java:97] - <sign 3des error.>
+java.security.InvalidKeyException: Wrong algorithm: DESede or TripleDES required
+	at com.sun.crypto.provider.DESedeCrypt.init(DESedeCrypt.java:65)
+	at com.sun.crypto.provider.CipherBlockChaining.init(CipherBlockChaining.java:91)
+	at com.sun.crypto.provider.CipherCore.init(CipherCore.java:469)
+	at com.sun.crypto.provider.DESedeCipher.engineInit(DESedeCipher.java:197)
+	at javax.crypto.Cipher.implInit(Cipher.java:791)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:849)
+	at javax.crypto.Cipher.init(Cipher.java:1348)
+	at javax.crypto.Cipher.init(Cipher.java:1282)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:85)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.sign(TripleDES.java:94)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 17:03:38,186 DEBUG [TripleDES.java:32] - <init key gbz, keyiv aaa, destype TripleDES/CBC/PKCS5Padding.>
+2015-06-12 17:03:38,556 ERROR [TripleDES.java:108] - <sign 3des error.>
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:750)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:676)
+	at com.sun.crypto.provider.DESedeCipher.engineDoFinal(DESedeCipher.java:294)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2145)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:86)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.nuSign(TripleDES.java:105)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 17:10:44,839 DEBUG [TripleDES.java:32] - <init key gbz, keyiv aaa, destype TripleDES/CBC/PKCS5Padding.>
+2015-06-12 17:10:45,508 ERROR [TripleDES.java:108] - <sign 3des error.>
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:750)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:676)
+	at com.sun.crypto.provider.DESedeCipher.engineDoFinal(DESedeCipher.java:294)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2145)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.TripleDES(TripleDES.java:86)
+	at com.gbz.lemon.datasecurity.impl.symmetrical.TripleDES.nuSign(TripleDES.java:105)
+	at com.gbz.lemon.datasecurity.TripleDesTest.validateTest(TripleDesTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2015-06-12 17:14:14,559 DEBUG [TripleDES.java:32] - <init key gbz, keyiv aaa, destype TripleDES/CBC/PKCS5Padding.>

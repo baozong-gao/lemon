@@ -1,6 +1,5 @@
 package com.gbz.lemon.util;
 
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.security.KeyStore;
@@ -151,7 +150,7 @@ public class KeyUtil {
 		String test = "gbz";
 		KeyUtil keyUtil = new KeyUtil();
 		PrivateKey privateKey = keyUtil.getPrivateKeyByKeyStore("E:\\zhengshu\\serverKeys.jks","123456","server");
-		PublicKey publicKey = keyUtil.getPublicKeyByPrivate("E:\\zhengshu\\serverKeys.jks","123456","server");
+		PublicKey publicKey = keyUtil.getPublicKeyByKeyStore("E:\\zhengshu\\clientKeys.jks","123456","server");
 		
 		byte[] plainText = test.getBytes("UTF-8");
         Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");

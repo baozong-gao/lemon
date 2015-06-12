@@ -16,9 +16,17 @@ public abstract class DataSecurity {
 	//公钥别名
 	protected String publicAlias;
 	
-	public abstract String sign(Object data);
+	public String sign(byte [] data){
+		return null;
+	};
 	
-	public abstract Boolean validate(Object signData);
+	public  Boolean validate(byte [] signData){
+		return null;
+	};
+	
+	public  String nuSign(byte [] signData){
+		return null;
+	};
 	
 	public KeyUtil getKeyUtil() {
 		return keyUtil;
