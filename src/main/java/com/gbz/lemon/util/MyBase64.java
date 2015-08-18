@@ -46,7 +46,7 @@ public class MyBase64 {
 				grepStrToBinary = grepStrToBinary.substring(0, indexOf);
 			}
 			String[][] targat = grepString(grepStrToBinary, 6);
-			log.debug("{}-->{},分组：{}", strings, grepStrToBinary, targat);
+			log.debug("{}-->{},分组：{}",new Object[]{ strings, grepStrToBinary, targat});
 			int targatSize = targat.length;
 
 			for (int i = 0; i < targatSize; i++) {
