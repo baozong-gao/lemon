@@ -3,8 +3,6 @@ package com.gbz.lemon.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import sun.util.logging.resources.logging;
-
 /**
  * 此类只做学习使用
  * 
