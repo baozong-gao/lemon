@@ -10,7 +10,6 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -86,7 +85,8 @@ public class TcpIp implements Communication {
 		}
 		ByteBuffer buffer = ByteBuffer.wrap(data);
 		Iterator<SelectionKey> selectedKeys;
-		while (true) {
+		boolean isOk = true;
+		while (isOk) {
 			// 当事件注册到来前，一直阻塞
 			log.debug("准备连接服务器。。。");
 			selector.select();
@@ -94,20 +94,10 @@ public class TcpIp implements Communication {
 
 			while (selectedKeys.hasNext()) {
 				SelectionKey key = selectedKeys.next();
-				selectedKeys.remove();
 				if (key.isConnectable()) {
-					log.debug("已连接上服务器");
-					SocketChannel channel = (SocketChannel) key.channel();
-					if (channel.isConnectionPending()) {
-						channel.finishConnect();
-					}
-					channel.configureBlocking(isBlock);
-					channel.write(buffer);
-					log.debug("信息已发送出");
-					channel.register(selector, SelectionKey.OP_READ);
-					log.debug("等待服务器返回");
+					key.interestOps(SelectionKey.OP_READ | SelectionKey.OP_WRITE);
 				} else if (key.isReadable()) {
-					log.debug("准备接收服务器返回信息");
+					log.debug("开始接收服务器返回信息");
 					SocketChannel channel = (SocketChannel) key.channel();
 					ByteBuffer redbuffer = ByteBuffer.allocate(10);
 					int read;
@@ -121,7 +111,21 @@ public class TcpIp implements Communication {
 					log.debug("服务器已返回");
 					channel.close();
 					log.debug("关闭通道");
+					isOk = false;
+					break;
+				}else if(key.isWritable()){
+					log.debug("开始向服务器发送信息");
+					SocketChannel channel = (SocketChannel) key.channel();
+					if (channel.isConnectionPending()) {
+						channel.finishConnect();
+						log.debug("已连接上服务器");
+					}
+					channel.configureBlocking(isBlock);
+					channel.write(buffer);
+					log.debug("信息已发送出");
+					key.interestOps(SelectionKey.OP_READ);
 				}
+				selectedKeys.remove();
 			}
 		}
 
@@ -138,21 +142,16 @@ public class TcpIp implements Communication {
 		if (selector == null) {
 			return ret;
 		}
+		boolean isOk = true;
 		Iterator<SelectionKey> selectedKeys;
-		while (true) {
+		while (isOk) {
 			// 当事件注册到来前，一直阻塞
 			selector.select();
 			selectedKeys = selector.selectedKeys().iterator();
 			while (selectedKeys.hasNext()) {
 				SelectionKey key = selectedKeys.next();
-				selectedKeys.remove();
 				if (key.isAcceptable()) {
-					ServerSocketChannel channel = (ServerSocketChannel) key
-							.channel();
-					SocketChannel accept = channel.accept();
-					accept.configureBlocking(isBlock);
-					accept.write(ByteBuffer.wrap("服务器接受连接".getBytes()));
-					accept.register(selector, SelectionKey.OP_READ);
+					key.interestOps(SelectionKey.OP_READ | SelectionKey.OP_WRITE);
 				} else if (key.isReadable()) {
 					SocketChannel channel = (SocketChannel) key.channel();
 					ByteBuffer redbuffer = ByteBuffer.allocate(10);
@@ -163,11 +162,21 @@ public class TcpIp implements Communication {
 						redbuffer.clear();
 					}
 					log.info("客户端数据接收完成：" + new String(ret));
+				}else if(key.isWritable()){
+					ServerSocketChannel channel = (ServerSocketChannel) key
+							.channel();
+					SocketChannel accept = channel.accept();
+					accept.configureBlocking(isBlock);
+					accept.write(ByteBuffer.wrap("服务器接受连接".getBytes()));
+					accept.register(selector, SelectionKey.OP_READ);
 					channel.close();
+					isOk = false;
 					break;
 				}
+				selectedKeys.remove();
 			}
 		}
+		return ret;
 	}
 
 	public static byte[] byteMerger(byte[] byte1, byte[] byte2) {
