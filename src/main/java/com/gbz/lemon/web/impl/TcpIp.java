@@ -3,6 +3,7 @@ package com.gbz.lemon.web.impl;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
+import java.nio.channels.SelectableChannel;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
@@ -40,45 +41,45 @@ public class TcpIp implements Communication {
 
 	private Selector initSocketClient() throws Exception {
 		if (serverAddr != null && serverPort != -1) {
-			log.debug("初始化客户端。。。");
+			log.debug("客户端：初始化客户端。。。");
 			SocketChannel channel = SocketChannel.open();
 			channel.configureBlocking(isBlock);
-			log.debug("使用{}模式", isBlock ? "阻塞" : "非阻塞");
+			log.debug("客户端：使用{}模式", isBlock ? "阻塞" : "非阻塞");
 			channel.connect(new InetSocketAddress(this.serverAddr,
 					this.serverPort));
-			log.debug("连接服务器：{}：{}", this.serverAddr, this.serverPort);
+			log.debug("客户端：连接服务器：{}：{}", this.serverAddr, this.serverPort);
 			Selector selector = Selector.open();
 			channel.register(selector, SelectionKey.OP_CONNECT);
-			log.debug("准备连接");
+			log.debug("客户端：准备连接");
 			return selector;
 		}
-		log.error("初始化失败。");
+		log.error("客户端：初始化失败。");
 		return null;
 	}
 
 	private Selector initSocketServer() throws Exception {
 		if (serverAddr == null && serverPort != -1) {
-			log.debug("初始化服务端。。。");
+			log.debug("服务器：初始化服务端。。。");
 			ServerSocketChannel serverChannel = ServerSocketChannel.open();
 			serverChannel.configureBlocking(isBlock);
-			log.debug("使用{}模式", isBlock ? "阻塞" : "非阻塞");
+			log.debug("服务器：使用{}模式", isBlock ? "阻塞" : "非阻塞");
 			serverChannel.socket().bind(new InetSocketAddress(this.serverPort));
-			log.debug("监听本地{}端口", this.serverPort);
+			log.debug("服务器：监听本地{}端口", this.serverPort);
 			Selector selector = Selector.open();
 			serverChannel.register(selector, SelectionKey.OP_ACCEPT);
-			log.debug("准备监听");
+			log.debug("服务器：准备监听");
 			return selector;
 		}
-		log.error("初始化失败。");
+		log.error("服务器：初始化失败。");
 		return null;
 	}
 
-	public void sendMessage(byte[] data) throws IOException {
+	public void sendMessage(byte[] data) throws Exception {
 		Selector selector = null;
 		try {
 			selector = initSocketClient();
 		} catch (Exception e) {
-			log.error("客户端初始化失败。", e);
+			log.error("客户端：初始化失败。", e);
 		}
 		if (selector == null) {
 			return;
@@ -88,56 +89,63 @@ public class TcpIp implements Communication {
 		boolean isOk = true;
 		while (isOk) {
 			// 当事件注册到来前，一直阻塞
-			log.debug("准备连接服务器。。。");
+			log.debug("客户端：准备连接服务器。。。");
+			Thread.sleep(1000);
 			selector.select();
 			selectedKeys = selector.selectedKeys().iterator();
-
 			while (selectedKeys.hasNext()) {
 				SelectionKey key = selectedKeys.next();
+				selectedKeys.remove();
 				if (key.isConnectable()) {
-					key.interestOps(SelectionKey.OP_READ | SelectionKey.OP_WRITE);
+					log.debug("客户端：连接到服务器");
+					SocketChannel server = (SocketChannel) key.channel();
+					if (server.isConnectionPending()) {
+						server.finishConnect();
+						log.debug("客户端：已连接上服务器");
+					}
+					log.debug("客户端：开始向服务器发送信息");
+					server.configureBlocking(isBlock);
+					server.write(buffer);
+					log.debug("客户端：信息已发送出");
+					key.interestOps(SelectionKey.OP_READ);
+					log.debug("客户端：注册了读事件");
 				} else if (key.isReadable()) {
-					log.debug("开始接收服务器返回信息");
-					SocketChannel channel = (SocketChannel) key.channel();
-					ByteBuffer redbuffer = ByteBuffer.allocate(10);
+					log.debug("客户端：开始接收服务器返回信息");
+					SocketChannel server = (SocketChannel) key.channel();
+					ByteBuffer redbuffer = ByteBuffer.allocate(1024);
 					int read;
 					redbuffer.flip();
 					byte[] ret = null;
-					while ((read = channel.read(redbuffer)) != -1) {
-						redbuffer.flip();
-						ret = byteMerger(ret, redbuffer.array());
-						redbuffer.clear();
+					byte [] dst = null;
+					while (true) {
+						read = server.read(redbuffer);
+						if (read == -1 || read == 0) {
+							break;
+						} else {
+							redbuffer.flip();
+							dst = new byte [read];
+							redbuffer.get(dst, 0, read);
+							ret = byteMerger(ret, dst);
+							redbuffer.clear();
+						}
 					}
-					log.debug("服务器已返回");
-					channel.close();
-					log.debug("关闭通道");
+					log.debug("客户端：服务器返回【{}】", new String(ret));
+					server.close();
+					log.debug("客户端：关闭通道");
 					isOk = false;
-					break;
-				}else if(key.isWritable()){
-					log.debug("开始向服务器发送信息");
-					SocketChannel channel = (SocketChannel) key.channel();
-					if (channel.isConnectionPending()) {
-						channel.finishConnect();
-						log.debug("已连接上服务器");
-					}
-					channel.configureBlocking(isBlock);
-					channel.write(buffer);
-					log.debug("信息已发送出");
-					key.interestOps(SelectionKey.OP_READ);
 				}
-				selectedKeys.remove();
 			}
 		}
 
 	}
 
-	public byte[] accept() throws IOException {
+	public byte[] accept() throws Exception {
 		byte[] ret = null;
 		Selector selector = null;
 		try {
 			selector = initSocketServer();
 		} catch (Exception e) {
-			log.error("客户端初始化失败。", e);
+			log.error("服务器：初始化失败。", e);
 		}
 		if (selector == null) {
 			return ret;
@@ -146,34 +154,53 @@ public class TcpIp implements Communication {
 		Iterator<SelectionKey> selectedKeys;
 		while (isOk) {
 			// 当事件注册到来前，一直阻塞
+			log.debug("服务器：准备接收客户请求。");
+			Thread.sleep(1000);
 			selector.select();
 			selectedKeys = selector.selectedKeys().iterator();
 			while (selectedKeys.hasNext()) {
 				SelectionKey key = selectedKeys.next();
+				selectedKeys.remove();
 				if (key.isAcceptable()) {
-					key.interestOps(SelectionKey.OP_READ | SelectionKey.OP_WRITE);
-				} else if (key.isReadable()) {
-					SocketChannel channel = (SocketChannel) key.channel();
-					ByteBuffer redbuffer = ByteBuffer.allocate(10);
-					int read;
-					while ((read = channel.read(redbuffer)) != -1) {
-						redbuffer.flip();
-						ret = byteMerger(ret, redbuffer.array());
-						redbuffer.clear();
-					}
-					log.info("客户端数据接收完成：" + new String(ret));
-				}else if(key.isWritable()){
+					log.debug("服务器：有一个连接接入");
 					ServerSocketChannel channel = (ServerSocketChannel) key
 							.channel();
-					SocketChannel accept = channel.accept();
-					accept.configureBlocking(isBlock);
-					accept.write(ByteBuffer.wrap("服务器接受连接".getBytes()));
-					accept.register(selector, SelectionKey.OP_READ);
-					channel.close();
+					SocketChannel client = channel.accept();
+					client.configureBlocking(isBlock);
+					client.register(selector, SelectionKey.OP_READ);
+					log.debug("服务器：使用{}模式，注册了读事件", isBlock ? "阻塞" : "非阻塞");
+				} else if (key.isReadable()) {
+					log.debug("服务器：有连接向我发送数据");
+					SocketChannel client = (SocketChannel) key.channel();
+					ByteBuffer redbuffer = ByteBuffer.allocate(1024);
+					int read;
+					byte [] dst;
+					while (true) {
+						read = client.read(redbuffer);
+						if (read == -1 || read == 0) {
+							break;
+						} else {
+							redbuffer.flip();
+							dst = new byte [read];
+							redbuffer.get(dst, 0, read);
+							ret = byteMerger(ret,dst);
+							redbuffer.clear();
+						}
+					}
+					log.info("服务器：客户端数据接收完成：【{}】" , new String(ret));
+					client.register(selector, SelectionKey.OP_WRITE);
+					log.debug("服务器：接收数据完成，注册了写事件");
+				} else if (key.isWritable()) {
+					log.debug("服务器：有通道可以写入。");
+					SocketChannel client = (SocketChannel) key.channel();
+					ByteBuffer buffer = ByteBuffer.wrap("接受成功".getBytes());
+					buffer.flip();
+					client.write(buffer);
+					key.cancel();
+					key.channel().close();
+					log.debug("服务器：结束通信");
 					isOk = false;
-					break;
 				}
-				selectedKeys.remove();
 			}
 		}
 		return ret;
@@ -200,7 +227,7 @@ public class TcpIp implements Communication {
 				TcpIp worker = new TcpIp(8888); // 线程类
 				try {
 					worker.accept();
-				} catch (IOException e) {
+				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
@@ -211,7 +238,7 @@ public class TcpIp implements Communication {
 				TcpIp worker = new TcpIp("127.0.0.1", 8888); // 线程类
 				try {
 					worker.sendMessage("高保宗高".getBytes());
-				} catch (IOException e) {
+				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
