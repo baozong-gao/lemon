@@ -1,9 +1,7 @@
 package com.gbz.lemon.web.impl;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.SelectableChannel;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
@@ -114,7 +112,6 @@ public class TcpIp implements Communication {
 					SocketChannel server = (SocketChannel) key.channel();
 					ByteBuffer redbuffer = ByteBuffer.allocate(1024);
 					int read;
-					redbuffer.flip();
 					byte[] ret = null;
 					byte [] dst = null;
 					while (true) {
@@ -128,8 +125,8 @@ public class TcpIp implements Communication {
 							ret = byteMerger(ret, dst);
 							redbuffer.clear();
 						}
+						log.debug("客户端：服务器返回【{}】", new String(ret));
 					}
-					log.debug("客户端：服务器返回【{}】", new String(ret));
 					server.close();
 					log.debug("客户端：关闭通道");
 					isOk = false;
@@ -194,7 +191,6 @@ public class TcpIp implements Communication {
 					log.debug("服务器：有通道可以写入。");
 					SocketChannel client = (SocketChannel) key.channel();
 					ByteBuffer buffer = ByteBuffer.wrap("接受成功".getBytes());
-					buffer.flip();
 					client.write(buffer);
 					key.cancel();
 					key.channel().close();
