@@ -140,7 +140,14 @@ public class MyMD5 {
 	 * @return
 	 */
 	private static byte[] fill(byte[] data) {
-		int dataSize = data.length;
+		
+		int dataSize = data.length * 8;
+		byte [] tmp = null;
+		for(byte b : data){
+			String byteToBinary = BitUtil.byteToBit(b);
+			tmp = BitUtil.byteMerger(tmp, StringUtil.stringTobyteArray(byteToBinary));
+		}
+		data = tmp;
 		int mod = dataSize % 512;
 		int n = (int) Math.round(Math.random() * 10);
 		int fillSize = 512 - 64 - mod + (n * 512);
@@ -153,15 +160,8 @@ public class MyMD5 {
 			data = BitUtil.byteMerger(data, fillByteData);
 		}
 		log.debug("开始处理64补位。。。");
-		String fill64 = Integer.toBinaryString(dataSize);
+		String fill64 = BitUtil.intToBit(dataSize);
 		int fill64len = fill64.length();
-		// Integer.toBinaryString 会把前面的0去掉，这里补上
-		int fill64fill = 8 - fill64len % 8;
-		for (int i = 0; i < fill64fill; i++) {
-			fill64 = "0" + fill64;
-			fill64len++;
-		}
-		log.debug("得到二进制数据：须要补充{}位，得到数据{}", fill64fill, fill64);
 		if (fill64len > 64) {
 			log.debug("大于64位：进行截取");
 			fill64 = fill64.substring(fill64len - 64);
@@ -281,7 +281,8 @@ public class MyMD5 {
 	}
 
 	public static void main(String[] args) {
+		System.out.println((byte)Integer.parseInt("11111111110011",2) & 0xff);
 		MyMD5 md5 = new MyMD5();
-		System.out.println(md5.digest("gbz".getBytes()));
+		System.out.println(md5.digest("高保宗".getBytes()));
 	}
 }

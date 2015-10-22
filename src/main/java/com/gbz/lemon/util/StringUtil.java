@@ -36,7 +36,7 @@ public class StringUtil {
 			}else{
 				data[i] = 0;
 			}
-			log.debug("数据{}为{}",i,data[i]);
+//			log.debug("数据{}为{}",i,data[i]);
 		}
 		log.debug("string --> byte array 结果：{}",data);
 		return data;
