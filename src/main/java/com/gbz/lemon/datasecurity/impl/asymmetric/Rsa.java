@@ -1,5 +1,6 @@
 package com.gbz.lemon.datasecurity.impl.asymmetric;
 
+import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.security.Key;
 import java.security.KeyFactory;
@@ -32,6 +33,10 @@ public class Rsa {
 	private static final String SIGNATURE_ALGORITHM = "MD5withRSA";
 	// 密钥长度
 	private static final int KEY_LENGTH = 1024;
+	
+	private static final int MAX_ENCRYPT_BLOCK = 117; 
+	 
+	private static final int MAX_DECRYPT_BLOCK = 128;  
 
 	// 用来存放公钥密钥
 	Map<String, Object> keyMap = new HashMap<String, Object>();
@@ -80,7 +85,7 @@ public class Rsa {
 				Certificate certificate = store.getCertificate(pubAlias);
 				RSAPublicKey pulbicKey = (RSAPublicKey)certificate.getPublicKey();
 				keyMap.put(PUBLIC_KEY, pulbicKey);
-				logger.info("加入私钥成功。");
+				logger.info("加入公钥成功。");
 			}
 		} catch (Exception e) {
 			logger.error("初始化密钥失败", e);
@@ -92,7 +97,25 @@ public class Rsa {
 			KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);  
 			Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
 			cipher.init(Cipher.ENCRYPT_MODE, (Key) keyMap.get(PUBLIC_KEY)); 
-			return cipher.doFinal(data);
+			int inputLen = data.length;  
+	        ByteArrayOutputStream out = new ByteArrayOutputStream();  
+	        int offSet = 0;  
+	        byte[] cache;  
+	        int i = 0;  
+	        // 对数据分段加密  
+	        while (inputLen - offSet > 0) {  
+	            if (inputLen - offSet > MAX_ENCRYPT_BLOCK) {  
+	                cache = cipher.doFinal(data, offSet, MAX_ENCRYPT_BLOCK);  
+	            } else {  
+	                cache = cipher.doFinal(data, offSet, inputLen - offSet);  
+	            }  
+	            out.write(cache, 0, cache.length);  
+	            i++;  
+	            offSet = i * MAX_ENCRYPT_BLOCK;  
+	        }  
+	        byte[] encryptedData = out.toByteArray();  
+	        out.close();  
+			return encryptedData;
 		}catch(Exception e){
 			logger.error("加密失败",e);
 		}
@@ -104,7 +127,26 @@ public class Rsa {
 			KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);  
 			Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
 			cipher.init(Cipher.DECRYPT_MODE, (Key) keyMap.get(PRIVATE_KEY)); 
-			return cipher.doFinal(data);
+			int inputLen = data.length;  
+	        ByteArrayOutputStream out = new ByteArrayOutputStream();  
+	        int offSet = 0;  
+	        byte[] cache;  
+	        int i = 0;  
+	        // 对数据分段解密  
+	        while (inputLen - offSet > 0) {  
+	            if (inputLen - offSet > MAX_DECRYPT_BLOCK) {  
+	                cache = cipher.doFinal(data, offSet, MAX_DECRYPT_BLOCK);  
+	            } else {  
+	                cache = cipher.doFinal(data, offSet, inputLen - offSet);  
+	            }  
+	            out.write(cache, 0, cache.length);  
+	            i++;  
+	            offSet = i * MAX_DECRYPT_BLOCK;  
+	        }  
+	        byte[] decryptedData = out.toByteArray();  
+	        out.close();  
+			
+			return decryptedData;
 		}catch(Exception e){
 			logger.error("解密失败",e);
 		}

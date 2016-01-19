@@ -10,7 +10,7 @@ import com.gbz.lemon.datasecurity.impl.asymmetric.Rsa;
 public class RsaTest {
 
 	Rsa rsa = null;
-	String test = "gbz";
+	String test = "gbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbzgbz";
 	
 	@Before
 	public void init(){
@@ -23,6 +23,7 @@ public class RsaTest {
 		byte[] signMessage = rsa.SignByPublicKey(test.getBytes());
 		byte[] message = rsa.nuSignByPrivateKey(signMessage);
 		assertEquals(test, new String(message));
+		System.out.println(test.length());
 	}
 	@Test
 	public void signTestByJKS(){
